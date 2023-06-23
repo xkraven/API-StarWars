@@ -1,0 +1,80 @@
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} 
+h2{
+    background: #ccc;
+    background: linear-gradient(#0b1aa7,#000);
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.circulo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;  
+}
+
+.color0{
+   background-color: red; 
+}
+
+.color1{
+    background-color: green;
+}
+
+.color2{
+    background-color: blue;
+}
+
+.ancho {
+    width: 400px;
+}
+
+.card {
+    box-shadow: 0px 0px 5px #ccc, 0px 0px 10px #ccc;
+}
+
+.circulito{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: yellow
+}
+ 
+.linea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    height: 100%;
+    width: 3px;
+}
+
+
+#rango1, #rango2, #rango3 {
+    margin: 0% 25%;
+    width: 50%;
+    text-align: center;
+
+    background: #fff;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0px 0px 5px #ccc, 0px 0px 10px #ccc;
+    
+}
